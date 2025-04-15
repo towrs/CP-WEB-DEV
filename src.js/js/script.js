@@ -1,21 +1,3 @@
-// EXERCICIO 9 - UTLIZE FLOAT PARA STRING COM DADOS DA VARIAVEL 
-let numString ="250.00";
-console.log(parseFloat(numString));
-
-//Exercicio 8 crie um programa utilizando a base de texto seguinte
-
-let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
-console.log(texto.indexOf("em"))
-
-let info = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
-console.log(info.slice(40,50))
-
-let texto1 = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
-console.log(texto1.indexOf("ciência"))
-
-let texto2 = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
-console.log(texto2.indexOf("método"))
-
 // EXERCICIO 1 - DECLARE VARIAVÉIS COM VALOR undefined, vazio e com valor 
 
 let CPWEB;
@@ -26,6 +8,7 @@ console.log(valor)
 
 let number1 = 2025;
 console.log(number1)
+
 
 // Exercicio 3 - IMC
 
@@ -79,3 +62,21 @@ case (imc < 18.5) :
   console.log("Erro: Falha de autenticação")
   console.log("Não foi possível realizar login!")
  }
+
+ //Exercicio 8 crie um programa utilizando a base de texto seguinte
+
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
+console.log(texto.indexOf("em"))
+
+let info = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
+console.log(info.slice(40,50))
+
+let texto1 = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
+console.log(texto1.indexOf("ciência"))
+
+let texto2 = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
+console.log(texto2.indexOf("método"))
+
+ // EXERCICIO 9 - UTLIZE FLOAT PARA STRING COM DADOS DA VARIAVEL 
+let numString ="250.00";
+console.log(parseFloat(numString));
