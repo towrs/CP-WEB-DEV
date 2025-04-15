@@ -56,4 +56,11 @@ case (imc < 18.5) :
  default:
     console.log("Atenção: Você está na faixa de obesidade. Procure orientação médica!");
   }
-  
+
+  // Exercício 4 - Programa que conta até 50
+
+  console.log("Contagem de 0 até 50")
+   for(let i=0; i <= 50; i++){
+     console.log("O valor é:", i, "!");
+ }
+ 
