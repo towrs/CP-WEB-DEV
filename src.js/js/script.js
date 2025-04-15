@@ -64,3 +64,18 @@ case (imc < 18.5) :
      console.log("O valor é:", i, "!");
  }
  
+ // Exercício 5 - Recebe um usuário e senha e verifica se correspondem ao nome de usuário e senha cadastrados
+
+ const usuarioCad = "admin";
+ const senhaCad = "1234";
+
+ let nome = prompt("Seja bem-vindo à Vinharia SmoothPath!\nSiga as instruções a seguir para realizar seu login\nDigite seu nome de usuário: ");
+ let senha = prompt("Digite sua senha: ");
+
+ if(nome == usuarioCad && senha == senhaCad){
+  console.log("Login realizado com sucesso!")
+ } 
+ else{
+  console.log("Erro: Falha de autenticação")
+  console.log("Não foi possível realizar login!")
+ }
