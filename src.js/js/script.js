@@ -61,7 +61,7 @@ case (imc < 18.5) :
 
   console.log("Contagem de 0 até 50")
    for(let i=0; i <= 50; i++){
-     console.log("O valor é:", i, "!");
+     console.log("O valor é: " + i.toString() + "!");
  }
  
  // Exercício 5 - Recebe um usuário e senha e verifica se correspondem ao nome de usuário e senha cadastrados
