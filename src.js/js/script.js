@@ -63,6 +63,26 @@ case (imc < 18.5) :
   console.log("Não foi possível realizar login!")
  }
 
+ //Exercicio 6 calcule a média de 7 notas, e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado
+
+let n1 = prompt("digite sua nota: ")
+let n2 = prompt("digite sua nota: ")
+let n3 = prompt("digite sua nota: ")
+let n4 = prompt("digite sua nota: ")
+let n5 = prompt("digite sua nota: ")
+let n6 = prompt("digite sua nota: ")
+let n7 = prompt("digite sua nota: ")
+
+function media (n1, n2, n3, n4, n5, n6, n7) {
+    console.log((n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7);
+}
+if (media <= 6.0){ 
+console.log("Voce esta aprovado")
+}
+else{
+    console.log("Voce esta reprovado")
+}
+
  //Exercicio 8 crie um programa utilizando a base de texto seguinte
 
 let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas"
