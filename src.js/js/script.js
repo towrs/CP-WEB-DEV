@@ -13,7 +13,7 @@ console.log(number1)
 // Exercicio 3 - IMC
 
 let peso = parseFloat(prompt("Digite o seu peso"));
-let altura = parseFloat(prompt("Digite sua Altura"));
+let altura = parseFloat(prompt("Digite sua Altura com o padrão 0.00"));
 
 let imc = peso / (altura **2);
 
