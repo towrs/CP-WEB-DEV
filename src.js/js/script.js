@@ -65,23 +65,34 @@ case (imc < 18.5) :
 
  //Exercicio 6 calcule a média de 7 notas, e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado
 
-let n1 = prompt("digite sua nota: ")
-let n2 = prompt("digite sua nota: ")
-let n3 = prompt("digite sua nota: ")
-let n4 = prompt("digite sua nota: ")
-let n5 = prompt("digite sua nota: ")
-let n6 = prompt("digite sua nota: ")
-let n7 = prompt("digite sua nota: ")
+let n1 = prompt("digite sua nota 1: ")
+let n2 = prompt("digite sua nota 2: ")
+let n3 = prompt("digite sua nota 3: ")
+let n4 = prompt("digite sua nota 4: ")
+let n5 = prompt("digite sua nota 5: ")
+let n6 = prompt("digite sua nota 6: ")
+let n7 = prompt("digite sua nota 7: ")
 
 function media (n1, n2, n3, n4, n5, n6, n7) {
     console.log((n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7);
 }
-if (media <= 6.0){ 
+if (media >= 6.0){ 
 console.log("Voce esta aprovado")
 }
 else{
     console.log("Voce esta reprovado")
 }
+
+//Exercicio 7 Crie um programa que imprima o seu nome, idade, curso e ano um embaixo do outro
+
+let no1 = prompt("Digite seu nome: ");
+console.log(no1)
+let idade = prompt("Digite sua idade: ");
+console.log(idade)
+let curso = prompt("Digite seu curso: ");
+console.log(curso)
+let ano = prompt("Digite o ano: ");
+console.log(ano)
 
  //Exercicio 8 crie um programa utilizando a base de texto seguinte
 
