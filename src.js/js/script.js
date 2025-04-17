@@ -12,7 +12,8 @@ console.log("Sugestão do sommelier:", sugestaoSommelier); // null
 let anoReserva = 2020;
 console.log("Ano da reserva do vinho:", anoReserva); // 2020
 
-// EXERCICIO 2 - Como usar o operador os operadores( != , ==, >= ) em JavaScript? Exemplifique e demonstre a saída! (5 Pontos)
+// EXERCICIO 2 - Como usar o operador os operadores( != , ==, >= ) em JavaScript? Exemplifique e demonstre a saída!
+
 let saida = "";
 
 // >= Verificando idade mínima para degustação
