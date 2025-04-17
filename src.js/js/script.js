@@ -14,28 +14,24 @@ console.log("Ano da reserva do vinho:", anoReserva); // 2020
 
 // EXERCICIO 2 - Como usar o operador os operadores( != , ==, >= ) em JavaScript? Exemplifique e demonstre a saída!
 
-let saida = "";
-
 // >= Verificando idade mínima para degustação
 let idade1 = 20;
-saida += "O cliente pode degustar vinhos? " + (idade1 >= 18) + "<br>";
+console.log("O cliente pode degustar vinhos? " + (idade1 >= 18));
 
 // == Verificando se o vinho é o favorito
 let vinhoFavorito = "Merlot";
-saida += "O vinho selecionado é o favorito da casa? " + (vinhoFavorito == "Merlot") + "<br>";
+console.log("O vinho selecionado é o favorito da casa? " + (vinhoFavorito == "Merlot"));
 
 // != Verificando se o vinho escolhido não é o que está fora de estoque
 let vinhoEscolhido = "Cabernet";
-saida += "O vinho escolhido está fora de estoque? " + (vinhoEscolhido != "Cabernet") + "<br>";
-
-console.log(saida);
+console.log("O vinho escolhido está fora de estoque? " + (vinhoEscolhido != "Cabernet"));
 
 // Exercicio 3 - IMC
 
 // Vinheria Angello: evento de bem-estar com avaliação de IMC
 
-let peso = parseFloat(prompt("Digite o seu peso para o cadastro na Vinheria Angello"));
-let altura = parseFloat(prompt("Digite sua altura com o padrão 0.00"));
+let peso = parseFloat(prompt("Digite o seu peso para o cadastro na Vinheria SmoothPath:"));
+let altura = parseFloat(prompt("Digite sua altura com o padrão 0.00:"));
 
 let imc = peso / (altura ** 2);
 
@@ -43,11 +39,11 @@ console.log("Seu IMC é de: " + imc.toFixed(2));
 
 switch(true) {
   case (imc < 18.5):
-    console.log("Atenção: Você está abaixo do peso ideal! Na Vinheria Angello, temos vinhos suaves e opções leves para acompanhar sua saúde.");
+    console.log("Atenção: Você está abaixo do peso ideal! Na Vinheria SmoothPath, temos vinhos suaves e opções leves para acompanhar sua saúde.");
     break;
 
   case (imc >= 18.5 && imc < 24.9):
-    console.log("Parabéns! Você está com peso normal. Aproveite a degustação de vinhos da Vinheria Angello com equilíbrio.");
+    console.log("Parabéns! Você está com peso normal. Aproveite a degustação de vinhos da Vinheria SmoothPath com equilíbrio.");
     break;
 
   case (imc >= 25 && imc < 29.9):
@@ -63,7 +59,7 @@ switch(true) {
 }
   // Exercício 4 - Programa que conta até 50
 
-  console.log("Contagem de garrafas numeradas para o estoque da Vinheria Angello:");
+  console.log("Contagem de garrafas numeradas para o estoque da Vinheria SmoothPath:");
 
 for (let i = 0; i <= 50; i++) {
   console.log("O valor é: " + i + "!");
@@ -74,7 +70,7 @@ for (let i = 0; i <= 50; i++) {
  const usuarioCad = "admin";
  const senhaCad = "1234";
 
- let nome = prompt("Seja bem-vindo à Vinharia SmoothPath!\nSiga as instruções a seguir para realizar seu login\nDigite seu nome de usuário: ");
+ let nome = prompt("Seja bem-vindo à Vinheria SmoothPath!\nSiga as instruções a seguir para realizar seu login\nDigite seu nome de usuário: ");
  let senha = prompt("Digite sua senha: ");
 
  if(nome == usuarioCad && senha == senhaCad){
@@ -119,26 +115,30 @@ let avaliacaoMedia = prompt("Digite a avaliação média dos vinhos (de 0 a 10):
 console.log(avaliacaoMedia);
 
  //Exercicio 8 crie um programa utilizando a base de texto seguinte
+ console.log("Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.")
 
- let textoVinharia = "A Vinícola Angello produz vinhos premiados, utilizando uvas selecionadas e técnicas de vinificação inovadoras para oferecer produtos de alta qualidade."
- console.log(textoVinharia.indexOf("vinhos"))
- 
- let infoVinharia = "A Vinícola Angello produz vinhos premiados, utilizando uvas selecionadas e técnicas de vinificação inovadoras para oferecer produtos de alta qualidade."
- console.log(infoVinharia.slice(10, 30))
- 
- let textoVinharia1 = "A Vinícola Angello produz vinhos premiados, utilizando uvas selecionadas e técnicas de vinificação inovadoras para oferecer produtos de alta qualidade."
- console.log(textoVinharia1.indexOf("uvas"))
- 
- let textoVinharia2 = "A Vinícola Angello produz vinhos premiados, utilizando uvas selecionadas e técnicas de vinificação inovadoras para oferecer produtos de alta qualidade."
- console.log(textoVinharia2.indexOf("alta"))
+ let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
 
+ console.log("Localização da primeira posição de 'em': " + texto.indexOf("em"))
+ 
+ console.log("Localização da última posição de 'ia': " + texto.slice(40,50))
+ 
+ console.log("Localização da palavra 'ciência': " + texto.indexOf("ciência",))
+ 
+ console.log("Localização da palavra 'métodos': " + texto.indexOf("métodos"))
+ 
  // EXERCICIO 9 - UTLIZE FLOAT PARA STRING COM DADOS DA VARIAVEL 
  
  let precoVinho = "150.50";
+ console.log("Preço do vinho: ");
  console.log(parseFloat(precoVinho));
+ console.log(typeof precoVinho);
  
  let qtdGarrafas = "100";
  console.log(parseFloat(qtdGarrafas));
+ console.log(typeof qtdGarrafas);
  
  let valorTotal = "3000.75";
+ console.log("Valor total:")
  console.log(parseFloat(valorTotal));
+ console.log(typeof valorTotal);
