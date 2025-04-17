@@ -9,6 +9,22 @@ console.log(valor)
 let number1 = 2025;
 console.log(number1)
 
+// EXERCICIO 2 - Como usar o operador os operadores( != , ==, >= ) em JavaScript? Exemplifique e demonstre a saída! (5 Pontos)
+let saida = "";
+
+// >= Verificando idade mínima para degustação
+let idade1 = 20;
+saida += "O cliente pode degustar vinhos? " + (idade1 >= 18) + "<br>";
+
+// == Verificando se o vinho é o favorito
+let vinhoFavorito = "Merlot";
+saida += "O vinho selecionado é o favorito da casa? " + (vinhoFavorito == "Merlot") + "<br>";
+
+// != Verificando se o vinho escolhido não é o que está fora de estoque
+let vinhoEscolhido = "Cabernet";
+saida += "O vinho escolhido está fora de estoque? " + (vinhoEscolhido != "Cabernet") + "<br>";
+
+console.log(saida);
 
 // Exercicio 3 - IMC
 
